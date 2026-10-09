@@ -12,9 +12,10 @@ A local image upscaler for Windows (and any OS that runs Python):
 
 - Drop in PNG, JPG/JPEG or WEBP images — one at a time or in batches.
 - Upscale **2×** or **4×** with genuine AI super-resolution (ONNX Runtime).
-- Automatic GPU acceleration: NVIDIA CUDA → DirectML (any Windows GPU) →
-  Apple CoreML → CPU fallback. The app detects everything and tells you which
-  device it uses.
+- Selects from the execution providers available in the installed ONNX Runtime:
+  CUDA, DirectML, CoreML, or CPU. The packaged Windows build has been verified
+  on one NVIDIA RTX 2050 using DirectML; other GPUs, providers, and CPU-only
+  machines have not been independently certified.
 - Compare Before/After with a slider, then download PNG, JPG or WEBP.
 - Works offline for inference after the selected model has been downloaded.
 
@@ -30,7 +31,7 @@ AI-upscaled output as a faithful copy of documents or text-heavy screenshots.
 |---|---|
 | Input | Drag & drop, file picker, multi-select; PNG / JPG / JPEG / WEBP; filename, dimensions, size and live preview per file |
 | AI upscaling | Native 2× and 4× models (Real-ESRGAN RRDBNet / SRVGGNetCompact); model registry is data-driven so new models drop in later |
-| Acceleration | Auto-detects CUDA, DirectML, CoreML, CPU — shows `Processing device: NVIDIA GeForce RTX 2050 (DirectML)`-style labels; CPU fallback always works |
+| Acceleration | Detects providers available in the installed runtime and reports the active device; packaged Windows inference verified on NVIDIA RTX 2050 via DirectML only |
 | Comparison | Before/after drag slider, original → new resolution, processing time, device and model used |
 | Download | Single images or **Download all**; PNG (lossless), JPG, WEBP with quality control; originals are never overwritten (`photo_4x.png`) |
 | Batch | `3 / 10 images processed` progress; per-file success/failure; one bad file never stops the batch; cancellable |
@@ -56,13 +57,13 @@ This is a feature, not a footnote:
 
 | Tier | Requirement | Notes |
 |---|---|---|
-| Recommended | NVIDIA GPU (any recent GeForce/Quadro) + `onnxruntime-gpu` | Fastest; CUDA 12/13 runtime needed |
-| Also accelerated | Any DirectX 12 GPU (NVIDIA / AMD / Intel) + `onnxruntime-directml` | Tested on RTX 2050: 4.2s for 320×240→1280×960 |
-| Apple Silicon | CoreML provider (compiled into some ORT builds) | Detected automatically |
-| Fallback | Any 64-bit CPU | Works everywhere; expect ~9s for 320×240→640×480 on a laptop CPU |
+| Packaged build verified | Windows 11 + NVIDIA RTX 2050 | DirectML inference tested; this is one hardware configuration, not a compatibility guarantee |
+| Other possible providers | CUDA, DirectML on other GPUs, CoreML, CPU | Provider availability depends on the installed runtime and hardware; these combinations have not been independently certified for this release |
 
-RAM: 8 GB is comfortable. VRAM: 4 GB handles typical photos via automatic
-tiling; out-of-memory triggers smaller tiles before a graceful error.
+Performance and memory use depend on image size, model, runtime, and hardware.
+The app uses tiled inference and retries smaller tiles after recognized
+out-of-memory errors, but this does not guarantee every image will fit on
+every GPU. No general RAM or VRAM minimum has been established.
 
 ## 5. Installation
 
