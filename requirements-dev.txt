@@ -1,0 +1,5 @@
+# Dev / test / build extras (not needed to run the app).
+pytest>=8.0
+playwright>=1.40   # UI tests (tools/ui_check.py)
+pyinstaller>=6.0   # Windows packaging (packaging/BiyaUpscale.spec)
+pywebview>=5.0     # optional native desktop window
