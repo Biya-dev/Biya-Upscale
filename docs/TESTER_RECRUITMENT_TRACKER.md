@@ -1,18 +1,19 @@
 # Biya Upscale v1.0.0 Tester Recruitment
 
-Last checked: 2026-10-09 08:21 (UTC+02:00)
+Last checked: 2026-10-09 08:31 (UTC+02:00)
 
 ## Status at last check
 
 - Goal: 5–10 real Windows testers.
 - Tester call: [GitHub issue #1](https://github.com/Biya-dev/Biya-Upscale/issues/1) is open. Its feedback checklist asks about Windows version, RAM, GPU/CPU, extraction and launch, first-run download, 2×/4× time and image type, saved outputs, quality, and errors. It asks people not to post private images or sensitive logs.
-- Confirmed interested testers: **0** (the issue had 0 comments when rechecked at 08:21).
-- Confirmed downloads: **0 reported by participants**. The GitHub Release asset counter showed 0 downloads at 08:21; this does not rule out downloads from another source.
+- Confirmed interested testers: **0** (the issue had 0 comments when rechecked at 08:30).
+- Confirmed downloads: **0 reported by participants**. The GitHub Release asset counter showed 0 downloads at 08:30; this does not rule out downloads from another source.
 - Verified successful tester runs: **0** (no participant reports yet).
 - Reported tester bugs: **0**.
 - Repository at last check: 0 stars, 0 forks, 0 pull requests, one open tester issue, and Discussions disabled.
 - Free discovery action completed: repository topics `windows`, `image-upscaler`, `ai-image-upscaling`, `open-source`, and `onnxruntime` were added and verified.
 - No posts were published to third-party communities. A Show HN submission was blocked by HN's temporary site restriction; no story URL was created. Other candidate-channel submission pages were checked but not submitted: Product Hunt and DEV pages did not load in the available browser, itch.io presented a Cloudflare security check/login, and Lobsters showed a login page (new-user invitations are required). No authentication checks were bypassed.
+- Additional discovery-route checks on 2026-10-09: SourceForge project creation requires an account (registration page was reachable, but no authenticated session was available); the checked AlternativeTo add URL returned 404; the checked SnapFiles submission URL returned 404; MajorGeeks' checked software-submission page exposed only a PR contact, not a verified public software-submission process. Reddit community rule pages could not be retrieved, so no Reddit post was attempted. No posts were made on these routes.
 
 Do not infer tester interest, downloads, or successful runs from page views, stars, asset counts, or an unanswered call. Update this tracker only from observable replies or platform counters, and keep participant identity private unless they choose to disclose it.
 
@@ -31,7 +32,7 @@ Rules and submission paths below were checked on 2026-10-09. Engagement is a qua
 | 7 | [Hashnode](https://hashnode.com/editor) | [Code of Conduct](https://hashnode.com/code-of-conduct) welcomes technical writing and relevant links; useful for a detailed image-quality trade-off article. | Avoid using the platform primarily for self-promotion. Disclose affiliation and make the technical article useful without the download link. | Draft ready; not posted | — | 0 | 0 | 0 | 0 | 0 | Owner publishes a substantive, original technical post. |
 | 8 | [Lobsters](https://lobste.rs/stories/new) | [Guidelines](https://lobste.rs/about) permit sharing things members made, with strict self-promotion limits. Relevant technical audience, small reach. | Self-promotion must be less than one quarter of a member’s submissions/comments; new accounts cannot use `show` or `announce` tags during their first 70 days and need an invitation. The submission route redirected to a login page; an invitation request via #lobsters chat was considered but not pursued. Do not use a new/fake account or bypass eligibility. | Not posted; invitation route not pursued | 2026-10-09 | 0 | 0 | 0 | 0 | 0 | Not a current tester-recruiting route; revisit only if legitimately invited and after genuine participation. |
 | 9 | [BetaList](https://betalist.com/submit) | [Support/FAQ](https://betalist.com/support) describes startup discovery/listings; likely more visibility than detailed technical tests. | Sign-in required; startup fit for a free open-source desktop utility is uncertain. Check acceptance and any paid/featured terms; do not spend money. | Not posted; conditional listing | — | 0 | 0 | 0 | 0 | 0 | Submit only if ordinary free listing is available and project fits. |
-| 10 | [SourceForge project](https://sourceforge.net/create/) | [Project creation](https://sourceforge.net/create/) and [project web-service rules](https://sourceforge.net/p/forge/documentation/Project%20Web%20Services/) support related project hosting/discovery; not a verified tester-call channel. | Use for a complete project page and releases; do not treat the hosting rule as blanket permission for broad promotion. | Not posted; conditional directory | — | 0 | 0 | 0 | 0 | 0 | Consider only if project listing/distribution is useful beyond this tester round. |
+| 10 | [SourceForge project](https://sourceforge.net/create/) | [Project creation](https://sourceforge.net/create/) and [project web-service rules](https://sourceforge.net/p/forge/documentation/Project%20Web%20Services/) support related project hosting/discovery; not a verified tester-call channel. | Project creation requires a SourceForge account; registration page was reachable, but no authenticated session was available. A listing would add another distribution surface to maintain. | Not posted; account required | 2026-10-09 | 0 | 0 | 0 | 0 | 0 | Owner can decide whether a maintained SourceForge listing is worth creating from an existing account. |
 
 Not recommended for recruiting: [Stack Overflow promotion guidance](https://stackoverflow.com/help/promotion) and [Open Source Stack Exchange promotion guidance](https://opensource.stackexchange.com/help/promotion) do not make these appropriate channels for a general tester solicitation. Reddit subreddits were not counted: their community-specific rules could not be verified from accessible official pages at the time checked.
 
