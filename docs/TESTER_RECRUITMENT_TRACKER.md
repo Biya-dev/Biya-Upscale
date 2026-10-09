@@ -1,18 +1,19 @@
 # Biya Upscale v1.0.0 Tester Recruitment
 
-Last checked: 2026-10-09 08:49 (UTC+02:00)
+Last checked: 2026-10-09 08:57 (UTC+02:00)
 
 ## Status at last check
 
 - Goal: 5–10 real Windows testers.
 - Tester call: [GitHub issue #1](https://github.com/Biya-dev/Biya-Upscale/issues/1) is open. Its feedback checklist asks about Windows version, RAM, GPU/CPU, extraction and launch, first-run download, 2×/4× time and image type, saved outputs, quality, and errors. It asks people not to post private images or sensitive logs.
-- Confirmed interested testers: **0** (the issue had 0 comments when rechecked at 08:44).
+- Confirmed interested testers: **0** (the issue has 1 maintainer comment announcing the mirror; no tester replies as of 08:57).
 - Confirmed downloads: **0 reported by participants**. The GitHub Release asset counter showed 0 downloads at 08:44; this does not rule out downloads from another source. SourceForge showed 0 downloads this week when checked at 08:49.
 - Verified successful tester runs: **0** (no participant reports yet).
 - Reported tester bugs: **0**.
 - Repository at last check: 0 stars, 0 forks, 0 pull requests, one open tester issue, and Discussions disabled.
 - Free discovery action completed: repository topics `windows`, `image-upscaler`, `ai-image-upscaling`, `open-source`, and `onnxruntime` were added and verified.
 - Published project discovery/download listing: [SourceForge Biya Upscale](https://sourceforge.net/projects/biya-upscale/) is live with an accurate product summary, limitations, the tester feedback link, and the “Image Upscalers” category. The existing Windows ZIP is mirrored in its [Files page](https://sourceforge.net/projects/biya-upscale/files/). The SourceForge copy was downloaded and SHA-256 compared to the existing GitHub release ZIP: both are 64,833,867 bytes with SHA-256 `d9d900a94a3f2ddb34c24649d2c743c44c7a3b6193917a9279804c66acea7239`. The GitHub release binary was not changed.
+- Posted a maintainer update on [tester issue #1](https://github.com/Biya-dev/Biya-Upscale/issues/1#issuecomment-6076043138) with the alternate SourceForge download, verified checksum, portable/unsigned warnings, model-download requirement, tested hardware scope, quality caveat, and privacy reminder. This is an outreach post, not a tester response.
 - Other third-party social posts have not been published. A Show HN submission was blocked by HN's temporary site restriction; no story URL was created. Product Hunt and DEV pages did not load in the available browser, itch.io presented a Cloudflare security check/login, and Lobsters showed a login page (new-user invitations are required). No authentication checks were bypassed.
 - Additional discovery-route checks on 2026-10-09: the checked AlternativeTo add URL returned 404; the checked SnapFiles submission URL returned 404; MajorGeeks' checked software-submission page exposed only a PR contact, not a verified public software-submission process. Reddit community rule pages could not be retrieved, so no Reddit post was attempted.
 - SourceForge creation initially showed a phone-verification/API error. The owner then shared a screenshot of the new project's admin page and explicitly approved creating a SourceForge listing and mirroring the unchanged ZIP. Project metadata was set to explain the portable ZIP, first-run model download, local inference, exact verified hardware scope, unsigned EXE warning, quality limitations, tester questions, and privacy caution. The ZIP was uploaded and publicly verified; do not infer any SourceForge downloads or testers yet.
