@@ -85,13 +85,13 @@ cd ..
 
 > GPU users: swap the CPU wheel for a GPU one —
 > `pip install onnxruntime-gpu` (NVIDIA) or
-> `pip install onnxruntime-directml` (any Windows GPU) — instead of
+> `pip install onnxruntime-directml` (for supported Windows GPUs) — instead of
 > `onnxruntime`. Nothing else changes.
 
 ## 6. Model installation
 
-Models are **not** bundled with the installer. On first launch the app shows
-an *Install the upscaling model* dialog:
+Models are **not** bundled with the portable release. On first launch the app
+shows an *Install the upscaling model* dialog:
 
 - **Real-ESRGAN x4 Plus** (~64 MB) — quality default for 4×.
 - **Real-ESRGAN x2 Plus** (~64 MB) — native 2×.
